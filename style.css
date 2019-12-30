@@ -1,0 +1,185 @@
+header {
+  font-family: 'Zilla Slab Highlight', cursive;
+  color: black;
+  font-size: 300% ;
+}
+h1 {
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  color: black;
+  text-align: center;
+}
+h2 {
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  color: black;
+}
+.middle {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.logoalign {
+  margin: auto;
+  width: 11%;
+  padding: 5px;
+}
+form input[type=text] {
+  background-color: white;
+}
+p {
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  color: black;
+  letter-spacing: 2px;
+  line-height: 130%;
+  margin-left: 10px;
+}
+html {
+  background: #eb01a5  ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: 0.75;
+  background: linear-gradient(to bottom, #ffffff 0%, #ff99cc 100%);
+}
+.menu ul {
+  margin-left: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.menu ul li {
+  float: left;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 15px;
+  background-color: white ;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+.menu li a:hover {
+  background-color: rgba(255, 204, 204, 0.3);
+}
+.menu ul li ul li {
+  display: none;
+  position: relative;
+}
+.menu ul li:hover ul li {
+  display: block;
+}
+input[type=text] {
+  padding: 11px;
+  border: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: rgba(255, 204, 204, 0.3);
+}
+.menu button {
+  padding-left: 2px;
+}
+.bsbags {
+  line-height: 0.5;
+  text-align: center;
+}
+.bsbags span {
+  display: inline-block;
+}
+article#bestSellers {
+  padding: 15px 50px 20px 50px;
+  list-style: none;
+  margin: 0;
+}
+button {
+  background: linear-gradient(to bottom, #ffffff 0%, #ff99cc 100%);
+}
+.row {
+  padding: 50px 50px 20px 50px;
+  list-style: none;
+  margin: 0;
+}
+.row {
+  margin: 8px 8px;
+}
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 3px;
+}
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 18%;
+}
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+/* Responsive layout: Makes it look better when rezised*/
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+article#aboutus {
+  background-color: #fce8fa;
+  opacity: 0.5;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  color: white;
+}
+.footerLinks {
+  text-align: center;
+}
+
+.footerLinks a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.footerLinks a:hover {
+  background-color: white;
+  opacity: 0.5;
+}
+footer {
+  background-color: #ffffff;
+  opacity: 0.5;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: right;
+  font-size: 11px;
+  overflow: hidden;
+}
